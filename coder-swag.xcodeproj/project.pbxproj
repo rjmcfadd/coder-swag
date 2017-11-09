@@ -13,6 +13,8 @@
 		9492EACD1FB1FA3700170A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9492EACC1FB1FA3700170A59 /* Assets.xcassets */; };
 		9492EAD01FB1FA3700170A59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9492EACE1FB1FA3700170A59 /* LaunchScreen.storyboard */; };
 		9492EADB1FB2000400170A59 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492EADA1FB2000400170A59 /* CategoryCell.swift */; };
+		9492EADD1FB38AA900170A59 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492EADC1FB38AA900170A59 /* Category.swift */; };
+		9492EAE01FB38C2700170A59 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492EADF1FB38C2700170A59 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9492EACF1FB1FA3700170A59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9492EAD11FB1FA3700170A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9492EADA1FB2000400170A59 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		9492EADC1FB38AA900170A59 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		9492EADF1FB38C2700170A59 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		9492EAC41FB1FA3700170A59 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				9492EADE1FB38C1100170A59 /* Services */,
 				9492EAD91FB1FF8F00170A59 /* View */,
 				9492EAD81FB1FF8600170A59 /* Model */,
 				9492EAD71FB1FF7B00170A59 /* Controller */,
@@ -79,6 +84,7 @@
 		9492EAD81FB1FF8600170A59 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9492EADC1FB38AA900170A59 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				9492EADA1FB2000400170A59 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9492EADE1FB38C1100170A59 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9492EADF1FB38C2700170A59 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +180,8 @@
 				9492EAC81FB1FA3700170A59 /* CategoriesVC.swift in Sources */,
 				9492EAC61FB1FA3700170A59 /* AppDelegate.swift in Sources */,
 				9492EADB1FB2000400170A59 /* CategoryCell.swift in Sources */,
+				9492EADD1FB38AA900170A59 /* Category.swift in Sources */,
+				9492EAE01FB38C2700170A59 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
